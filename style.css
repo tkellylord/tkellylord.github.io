@@ -89,3 +89,7 @@ h2 {
 .twitter_title {
     background: #08a0e9;
 }
+
+script {
+    display: block;
+}
