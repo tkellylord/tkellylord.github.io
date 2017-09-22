@@ -89,3 +89,11 @@ h2 {
 .twitter_title {
     background: #08a0e9;
 }
+
+.warning {
+    background: #fcf8d1;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 10pt;
+    margin: 10px 0 10px 0;
+}
