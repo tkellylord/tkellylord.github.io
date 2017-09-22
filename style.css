@@ -14,7 +14,6 @@ div.tab button {
     background-color: inherit;
     float: left;
     border: none;
-    outline: none;
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
@@ -27,13 +26,12 @@ div.tab button:hover {
 }
 
 /* Create an active/current tablink class */
-div.tab button.active {
+div.tab .active {
     background-color: #ccc;
 }
 
 /* Style the tab content */
 .tabcontent {
-    display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
@@ -77,16 +75,16 @@ padding: 10px;
     clear: both;
 }
 
-.reddit h2 {
-    background: #FF4500;
+h2 {
     padding: 5px;
     color: white;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
-.twitter h2 {
+.reddit_title {
+    background: #FF4500;
+}
+
+.twitter_title {
     background: #08a0e9;
-    padding: 5px;
-    color: white;
-    margin-bottom: 0px;
 }
